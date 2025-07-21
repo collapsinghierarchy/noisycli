@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "lib": ["deno.ns", "deno.window"]
+  },
+  "tasks": {
+    "dev":     "deno run --allow-read --allow-net main.js dev",
+    "build":   "deno run --allow-read --allow-write main.js build",
+    "deploy":  "deno run --allow-read --allow-net main.js deploy",
+    "compile": "deno compile --allow-read --allow-write -o noisycli main.js"
+  }
+}

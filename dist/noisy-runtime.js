@@ -1,0 +1,1 @@
+export async function fetchEncrypted(u,i){return fetch(u,i)}

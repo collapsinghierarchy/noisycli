@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Noisy demo</title>
+</head>
+<body>
+  <h1>Static demo</h1>
+
+  <!-- Add data-e2ee so CLI knows to encrypt -->
+  <form id="signup" data-e2ee>
+    <input name="email" type="email" required />
+    <button>Sign up</button>
+  </form>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

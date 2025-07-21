@@ -1,0 +1,6 @@
+{
+  "sourceDir": "src",
+  "outputDir": "dist",
+  "entryHtml": "index.html",
+  "entryJs":   "app.js"
+}
